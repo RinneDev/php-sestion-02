@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# PhpStorm settings
+.idea/
+
+# Windows files
+Thumbs.db
+.DS_Store
+/php-sestion-02/Sphere/.idea/
