@@ -22,18 +22,16 @@
         if (
             $first > 0 &&
             $second > 0 &&
-            $third > 0 &&
-
-          $first**2 + $second**2 === $third**2
-
-        ) {
-            echo "<div class='alert alert-success text-center'>
+            $third > 0) {
+        if ($first ** 2 +  $second ** 2 ===$third || $second **2 + $third ** 2 === $first || $first **2 + $third ** 2 === $second) {
+               echo "<div class='alert alert-success text-center'>
                 بله، می توان یک مثلث قائم الزاویه ساخت.
               </div>";
         } else {
             echo "<div class='alert alert-danger text-center'>
                 خیر، نمی توان یک مثلث قائم الزاویه ساخت.
               </div>";
+        }}
         }
     ?>
 
