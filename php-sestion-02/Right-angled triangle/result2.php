@@ -31,7 +31,7 @@
             echo "<div class='alert alert-danger text-center'>
                 خیر، نمی توان یک مثلث قائم الزاویه ساخت.
               </div>";
-        }}
+        }
         }
     ?>
 
