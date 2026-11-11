@@ -16,7 +16,7 @@
 
                   <form action="result.php" method="post">
                       <div class="card-title text-end">
-                          ? آیا با سه پاره خط میشود یک کره درست کرد
+                          ? شعاع  کره  را وارد کنید
                       </div>
 
                       <div class="container mb-3">
@@ -28,10 +28,8 @@
                       </div>
 
                       <button type="submit" class="btn btn-danger w-50">
-                          Okay
+                          Ok
                       </button>
-
-
                     </form>
 
         </div>
